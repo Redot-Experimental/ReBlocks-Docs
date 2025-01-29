@@ -12,7 +12,7 @@ export default defineConfig({
 				baseUrl: 'https://github.com/Redot-Experimental/reblocks-docs/tree/master/src/content/docs',
 			},
 			logo: {
-				src: '/home/andevrs/growing-graham/src/assets/Reblocksv2.svg',
+				src: './src/assets/Reblocksv2.svg',
 			  },
 			  customCss: [
 				'./src/styles/inter.css',
