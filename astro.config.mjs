@@ -4,10 +4,13 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://reblocks.redotengine.org',
 	integrations: [
 		starlight({
 			title: 'ReBlocks',
-	
+			editLink: {
+				baseUrl: 'https://github.com/Redot-Experimental/reblocks-docs/tree/master/docs',
+			},
 			logo: {
 				src: '/home/andevrs/growing-graham/src/assets/Reblocksv2.svg',
 			  },
