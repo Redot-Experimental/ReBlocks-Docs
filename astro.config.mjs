@@ -9,7 +9,7 @@ export default defineConfig({
 		starlight({
 			title: 'ReBlocks',
 			editLink: {
-				baseUrl: 'https://github.com/Redot-Experimental/reblocks-docs/tree/master/docs',
+				baseUrl: 'https://github.com/Redot-Experimental/reblocks-docs/tree/master/src/content/docs',
 			},
 			logo: {
 				src: '/home/andevrs/growing-graham/src/assets/Reblocksv2.svg',
