@@ -7,7 +7,6 @@
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/Redot-Experimental/reblocks-docs?color=FFA726&label=commits&style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/Redot-Experimental/reblocks-docs?color=FFA726&label=last%20commit&style=for-the-badge)
 
-
 <div align="center">
 
 <h1 align="center">ReBlocks</h1>
