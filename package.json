@@ -1,17 +1,37 @@
 {
-  "name": "growing-graham",
+  "name": "redot-experimental-reblock-docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redot-Experimental/reblocks-docs.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Redot-Experimental/reblocks-docs/issues"
+  },
+  "author": "Redot Experimental",
+  "homepage": "https://github.com/Redot-Experimental/reblocks-docs#readme",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "astro": "astro",
+    "prepare": "husky"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.31.1",
     "astro": "^5.1.5",
     "sharp": "^0.32.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
