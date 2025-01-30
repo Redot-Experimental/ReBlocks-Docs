@@ -1,13 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 @font-face {
   font-family: inter;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src:
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-Regular.woff2?v=3.19")
-      format("woff2"),
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-Regular.woff?v=3.19")
-      format("woff");
 }
 
 @font-face {
@@ -15,11 +12,6 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src:
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-Medium.woff2?v=3.19")
-      format("woff2"),
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-Medium.woff?v=3.19")
-      format("woff");
 }
 
 @font-face {
@@ -27,11 +19,6 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src:
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-SemiBold.woff2?v=3.19")
-      format("woff2"),
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-SemiBold.woff?v=3.19")
-      format("woff");
 }
 
 @font-face {
@@ -39,11 +26,6 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src:
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-Bold.woff2?v=3.19")
-      format("woff2"),
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-Bold.woff?v=3.19")
-      format("woff");
 }
 
 @font-face {
@@ -51,9 +33,4 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src:
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-ExtraBold.woff2?v=3.19")
-      format("woff2"),
-    url("https://cdn-raw.modrinth.com/fonts/inter/Inter-ExtraBold.woff?v=3.19")
-      format("woff");
 }
