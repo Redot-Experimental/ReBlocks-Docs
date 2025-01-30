@@ -8,17 +8,21 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "ReBlocks",
+      favicon: "/favicon.ico",
       editLink: {
         baseUrl:
-          "https://github.com/Redot-Experimental/reblocks-docs/tree/master/src/content/docs",
+          "https://github.com/Redot-Experimental/reblocks-docs/edit/master/src/content/docs/",
       },
       logo: {
-        src: "./src/assets/Reblocksv2.svg",
+        light: "./src/assets/dark-logo.svg",
+        dark: "./src/assets/light-logo.svg",
+        replacesTitle: true,
       },
       customCss: ["./src/styles/inter.css", "./src/styles/redot.css"],
-
       social: {
         github: "https://github.com/Redot-Experimental/ReBlocks",
+        discord: "https://discord.gg/redot",
+        "x.com": "https://x.com/Redot_Engine",
       },
       sidebar: [
         {
