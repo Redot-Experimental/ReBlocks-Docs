@@ -3,10 +3,10 @@ name: Markdown Lint
 on:
   push:
     paths:
-      - '**/*.md'
+      - "**/*.md"
   pull_request:
     paths:
-      - '**/*.md'
+      - "**/*.md"
 
 jobs:
   lint:
@@ -20,7 +20,7 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 'latest'
+          bun-version: "latest"
 
       - name: Install markdownlint-cli
         run: bun add -g markdownlint-cli
