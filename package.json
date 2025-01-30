@@ -1,7 +1,17 @@
 {
-  "name": "growing-graham",
+  "name": "redot-experimental-reblock-docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redot-Experimental/reblocks-docs.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Redot-Experimental/reblocks-docs/issues"
+  },
+  "author": "Redot Experimental",
+  "homepage": "https://github.com/Redot-Experimental/reblocks-docs#readme",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
